@@ -12,7 +12,7 @@
   
   a {
     text-decoration: none;
-    color: black;
+    color: inherit;
   }
   
   form {
@@ -212,7 +212,7 @@
   min-width: 1660px;
   margin: 0px;
   padding: 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(C:/Users/Lenovo/Desktop/Обучение/VS/Diplom_2/Img/banner-bg.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../Img/banner-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
@@ -347,28 +347,28 @@
 
 .trend_one {
   min-height: 315px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(C:/Users/Lenovo/Desktop/Обучение/VS/Diplom_2/Img/trend1.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../Img/trend1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .trend_two {
   min-height: 315px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(C:/Users/Lenovo/Desktop/Обучение/VS/Diplom_2/Img/trend2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../Img/trend2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .trend_three {
   min-height: 315px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(C:/Users/Lenovo/Desktop/Обучение/VS/Diplom_2/Img/trend3.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../Img/trend3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .trend_four {
   min-height: 315px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(C:/Users/Lenovo/Desktop/Обучение/VS/Diplom_2/Img/trend4.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../Img/trend4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -895,7 +895,7 @@
     min-width: 641px;
     max-width: 1199px;
     width: 100vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(C:/Users/Lenovo/Desktop/Обучение/VS/Diplom_2/Img/banner-bg-tablet.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../Img/banner-bg-tablet.jpg);
     box-sizing: border-box;
   }
   .header_inside {
@@ -1066,7 +1066,7 @@
     min-width: 0px;
     width: 100vw;
     padding: 30px 15px 0px 15px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(C:/Users/Lenovo/Desktop/Обучение/VS/Diplom_2/Img/banner-mobile.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../Img/banner-mobile.jpg);
     box-sizing: border-box;
   }
   .header_inside {
