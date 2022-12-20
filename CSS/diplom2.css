@@ -75,6 +75,7 @@
     align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
+    z-index: 3;
   }
 
   .popup__close {
@@ -114,6 +115,7 @@
     background-color: #fff;
     box-sizing: border-box;
     position: relative;
+    z-index: 8;
   }
 
   .popup_title {
@@ -154,8 +156,13 @@
     background-image: url(https://netology-code.github.io/html-2-homeworks/form-elements/city-select/img/select-arrows.svg);
     background-repeat: no-repeat;
     background-position: right 2rem center;
-    text-indent: 20px;
+    padding-left: 20px;
     color: #848887;
+  }
+
+  .attendance_item {
+    padding-left: 20px;
+    padding-right: -20px;
   }
 
   .attendance:focus {
@@ -164,15 +171,16 @@
 
   .mailing_wrapper {
     display: flex;
-    align-items: center;
-    margin-top: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 20%;
   }
 
   .mailing_item {
     display: inline-block;
     display: flex;
     align-items: center;
-    margin: 0px 10px 0px 0px;
+    margin: 10px 10px 0px 0px;
   }
 
   .desired_content {
@@ -330,6 +338,7 @@
 
 .trends__lower_level {
   display: flex;
+  justify-content: center;
   box-sizing: border-box;
   width: 100%;
   flex-wrap: wrap;
@@ -449,10 +458,12 @@
 	width: 381px;
   height: 297px;
   display: block;
-  background-color: #eff6f1;
+  background-color: #fff;
 }
 
 .main_content_img_img {
+  max-width: 381px;
+  max-height: 297px;
   width: inherit;
   height: inherit;
 }
@@ -770,8 +781,10 @@
   justify-content: center;
   border: 3px solid #b59f5b;
   box-sizing: border-box;
+  padding-top: 50px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 25px;
   margin-top: -30px;
 }
 
@@ -1131,12 +1144,8 @@
     margin: 40px 0px 0px 0px;
   }
   .trends_item {
-    min-height: 230px;
     width: 100%;
     margin: 0px 0px 5px 0px;
-  }
-  .trend_one, .trend_two, .trend_three, .trend_four {
-    min-height: 230px;
   }
   .trends_item:nth-child(4n) {
     margin: 0px 0px 5px 0px;
@@ -1284,9 +1293,9 @@
   }
 }
 
-@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) and (min-height: 641px) {
   .trends_item {
-    min-width: 220px;
+    min-width: 150px;
     min-height: 280px;
     width: calc(25% - 5px);
     margin: 5px 5px 0px 0px;
@@ -1299,11 +1308,19 @@
   .trends_item:nth-child(even) {
     margin: 5px 5px 0px 0px;
     width: calc(25% - 5px);
-    min-width: 220px;
+    min-width: 150px;
   } 
   .trends_item:nth-child(odd) {
     margin: 5px 5px 0px 0px;
     width: calc(25% - 5px);
-    min-width: 220px;
+    min-width: 150px;
+  }
+
+  .trends_item_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 3px solid #b59f5b;
+    padding: 8%;
   }
 }
